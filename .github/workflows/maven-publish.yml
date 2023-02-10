@@ -17,4 +17,5 @@ jobs:
         java-version: '17'
 
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn exec:java -Dexec.mainClass="org.stear.Main"
+    #  run: mvn exec:java -Dexec.mainClass="org.stear.Main"
+      run: java Main.java
