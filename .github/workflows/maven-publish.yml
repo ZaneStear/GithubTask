@@ -24,4 +24,5 @@ jobs:
           ${{ runner.os }}-maven-
 
     - name: Publish to GitHub Packages Apache Maven
-      run: mvn compile exec:java -Dexec.mainClass="org.stear.Main"
+      #run: mvn compile exec:java -Dexec.mainClass="org.stear.Main"
+      run: java Main.java
